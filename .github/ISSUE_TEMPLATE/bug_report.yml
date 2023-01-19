@@ -4,6 +4,12 @@ title: "[BUG]: "
 labels: ["bug"]
 body:
   - type: textarea
+    id: bug-priority
+    attributes:
+      label: ПРИОРИТЕТ
+    validations:
+      required: true
+  - type: textarea
     id: bug-description
     attributes:
       label: ОПИСАНИЕ
