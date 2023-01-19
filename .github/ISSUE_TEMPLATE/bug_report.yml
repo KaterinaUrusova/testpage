@@ -1,0 +1,37 @@
+name: 🐛Bug Report
+description: File a bug report here
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: ОПИСАНИЕ
+    validations:
+      required: false
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: ШАГИ ВОСПРОИЗВЕДЕНИЯ
+      description: Steps to reproduce the behavior.
+      placeholder: Please write the steps in a list form
+    validations:
+      required: true
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: ОЖИДАЕМЫЙ РЕЗУЛЬТАТ
+    validations:
+      required: true
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: ФАКТИЧЕСКИЙ РЕЗУЛЬТАТ
+    validations:
+      required: true      
+  - type: textarea
+    id: environment
+    attributes:
+      label: ОКРУЖЕНИЕ
+    validations:
+      required: true
